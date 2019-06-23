@@ -1,1 +1,9 @@
 # Naive-bayes-classifier-python
+This is an implementation of the naive Bayes classifier for python. This implementation is made only with basic libraries such as numpy and random. So, the code implements from scratch all the basic parts of the classifier such as the calculation the likelihood probabilities, the m-estimate process, and the calculation of the posterior probability.
+With this project, my goal is to explain the naive Bayes classifier with a code where every important piece of code contains explanatory comments.
+
+Naive Bayes is a relatively simple classifier. The model is based on the Bayes theorem and in the assumption that the likelihood probabilities of the characteristics of an instance are independent. This simplicity makes the model good in avoiding overfitting. However, the model simplicity could lead to an oversimplification of the real distributions of the dataset in complex scenarios. Hence, getting poor results. Because of its overall good performance in most of the domains, the naive Bayes classifier is considered the "gold standard" of the classifiers. Personally, I like to use naive Bayes classifier before any other classifier to understand the data that I am using through the likehoods of each of the attributes. Also, we could use naive Bayes to produce an explanation of our predictions.
+
+On the implementation side, the code is made for tabular data. However, with the proper modifications, the implementation will be able to classify other kinds of data such as images or text. The project contains three files, the implementation of the classifier with comments, the implementation without comments and an example of how to use this classification. 
+
+In further updates, I am planning to optimize the running time of the implementation and explain the code in a Jupyter notebook style.
